@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		910D6AF720434288008C0C98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910D6AF620434288008C0C98 /* AppDelegate.swift */; };
+		910D6AF920434288008C0C98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910D6AF820434288008C0C98 /* ViewController.swift */; };
+		910D6AFC20434288008C0C98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 910D6AFA20434288008C0C98 /* Main.storyboard */; };
+		910D6AFF20434288008C0C98 /* ParseLab.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 910D6AFD20434288008C0C98 /* ParseLab.xcdatamodeld */; };
+		910D6B0120434288008C0C98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 910D6B0020434288008C0C98 /* Assets.xcassets */; };
+		910D6B0420434288008C0C98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 910D6B0220434288008C0C98 /* LaunchScreen.storyboard */; };
+		910D6B0F20434288008C0C98 /* ParseLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910D6B0E20434288008C0C98 /* ParseLabTests.swift */; };
+		910D6B1A20434288008C0C98 /* ParseLabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910D6B1920434288008C0C98 /* ParseLabUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		910D6B0B20434288008C0C98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 910D6AEB20434287008C0C98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 910D6AF220434288008C0C98;
+			remoteInfo = ParseLab;
+		};
+		910D6B1620434288008C0C98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 910D6AEB20434287008C0C98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 910D6AF220434288008C0C98;
+			remoteInfo = ParseLab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		910D6AF320434288008C0C98 /* ParseLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParseLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		910D6AF620434288008C0C98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		910D6AF820434288008C0C98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		910D6AFB20434288008C0C98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		910D6AFE20434288008C0C98 /* ParseLab.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ParseLab.xcdatamodel; sourceTree = "<group>"; };
+		910D6B0020434288008C0C98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		910D6B0320434288008C0C98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		910D6B0520434288008C0C98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		910D6B0A20434288008C0C98 /* ParseLabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParseLabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		910D6B0E20434288008C0C98 /* ParseLabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseLabTests.swift; sourceTree = "<group>"; };
+		910D6B1020434288008C0C98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		910D6B1520434288008C0C98 /* ParseLabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParseLabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		910D6B1920434288008C0C98 /* ParseLabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseLabUITests.swift; sourceTree = "<group>"; };
+		910D6B1B20434288008C0C98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		910D6AF020434288008C0C98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		910D6B0720434288008C0C98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		910D6B1220434288008C0C98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		910D6AEA20434287008C0C98 = {
+			isa = PBXGroup;
+			children = (
+				910D6AF520434288008C0C98 /* ParseLab */,
+				910D6B0D20434288008C0C98 /* ParseLabTests */,
+				910D6B1820434288008C0C98 /* ParseLabUITests */,
+				910D6AF420434288008C0C98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		910D6AF420434288008C0C98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				910D6AF320434288008C0C98 /* ParseLab.app */,
+				910D6B0A20434288008C0C98 /* ParseLabTests.xctest */,
+				910D6B1520434288008C0C98 /* ParseLabUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		910D6AF520434288008C0C98 /* ParseLab */ = {
+			isa = PBXGroup;
+			children = (
+				910D6AF620434288008C0C98 /* AppDelegate.swift */,
+				910D6AF820434288008C0C98 /* ViewController.swift */,
+				910D6AFA20434288008C0C98 /* Main.storyboard */,
+				910D6B0020434288008C0C98 /* Assets.xcassets */,
+				910D6B0220434288008C0C98 /* LaunchScreen.storyboard */,
+				910D6B0520434288008C0C98 /* Info.plist */,
+				910D6AFD20434288008C0C98 /* ParseLab.xcdatamodeld */,
+			);
+			path = ParseLab;
+			sourceTree = "<group>";
+		};
+		910D6B0D20434288008C0C98 /* ParseLabTests */ = {
+			isa = PBXGroup;
+			children = (
+				910D6B0E20434288008C0C98 /* ParseLabTests.swift */,
+				910D6B1020434288008C0C98 /* Info.plist */,
+			);
+			path = ParseLabTests;
+			sourceTree = "<group>";
+		};
+		910D6B1820434288008C0C98 /* ParseLabUITests */ = {
+			isa = PBXGroup;
+			children = (
+				910D6B1920434288008C0C98 /* ParseLabUITests.swift */,
+				910D6B1B20434288008C0C98 /* Info.plist */,
+			);
+			path = ParseLabUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		910D6AF220434288008C0C98 /* ParseLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 910D6B1E20434288008C0C98 /* Build configuration list for PBXNativeTarget "ParseLab" */;
+			buildPhases = (
+				910D6AEF20434288008C0C98 /* Sources */,
+				910D6AF020434288008C0C98 /* Frameworks */,
+				910D6AF120434288008C0C98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParseLab;
+			productName = ParseLab;
+			productReference = 910D6AF320434288008C0C98 /* ParseLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		910D6B0920434288008C0C98 /* ParseLabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 910D6B2120434288008C0C98 /* Build configuration list for PBXNativeTarget "ParseLabTests" */;
+			buildPhases = (
+				910D6B0620434288008C0C98 /* Sources */,
+				910D6B0720434288008C0C98 /* Frameworks */,
+				910D6B0820434288008C0C98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				910D6B0C20434288008C0C98 /* PBXTargetDependency */,
+			);
+			name = ParseLabTests;
+			productName = ParseLabTests;
+			productReference = 910D6B0A20434288008C0C98 /* ParseLabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		910D6B1420434288008C0C98 /* ParseLabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 910D6B2420434288008C0C98 /* Build configuration list for PBXNativeTarget "ParseLabUITests" */;
+			buildPhases = (
+				910D6B1120434288008C0C98 /* Sources */,
+				910D6B1220434288008C0C98 /* Frameworks */,
+				910D6B1320434288008C0C98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				910D6B1720434288008C0C98 /* PBXTargetDependency */,
+			);
+			name = ParseLabUITests;
+			productName = ParseLabUITests;
+			productReference = 910D6B1520434288008C0C98 /* ParseLabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		910D6AEB20434287008C0C98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Aayush;
+				TargetAttributes = {
+					910D6AF220434288008C0C98 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					910D6B0920434288008C0C98 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 910D6AF220434288008C0C98;
+					};
+					910D6B1420434288008C0C98 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 910D6AF220434288008C0C98;
+					};
+				};
+			};
+			buildConfigurationList = 910D6AEE20434287008C0C98 /* Build configuration list for PBXProject "ParseLab" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 910D6AEA20434287008C0C98;
+			productRefGroup = 910D6AF420434288008C0C98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				910D6AF220434288008C0C98 /* ParseLab */,
+				910D6B0920434288008C0C98 /* ParseLabTests */,
+				910D6B1420434288008C0C98 /* ParseLabUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		910D6AF120434288008C0C98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				910D6B0420434288008C0C98 /* LaunchScreen.storyboard in Resources */,
+				910D6B0120434288008C0C98 /* Assets.xcassets in Resources */,
+				910D6AFC20434288008C0C98 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		910D6B0820434288008C0C98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		910D6B1320434288008C0C98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		910D6AEF20434288008C0C98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				910D6AF920434288008C0C98 /* ViewController.swift in Sources */,
+				910D6AFF20434288008C0C98 /* ParseLab.xcdatamodeld in Sources */,
+				910D6AF720434288008C0C98 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		910D6B0620434288008C0C98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				910D6B0F20434288008C0C98 /* ParseLabTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		910D6B1120434288008C0C98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				910D6B1A20434288008C0C98 /* ParseLabUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		910D6B0C20434288008C0C98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 910D6AF220434288008C0C98 /* ParseLab */;
+			targetProxy = 910D6B0B20434288008C0C98 /* PBXContainerItemProxy */;
+		};
+		910D6B1720434288008C0C98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 910D6AF220434288008C0C98 /* ParseLab */;
+			targetProxy = 910D6B1620434288008C0C98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		910D6AFA20434288008C0C98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				910D6AFB20434288008C0C98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		910D6B0220434288008C0C98 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				910D6B0320434288008C0C98 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		910D6B1C20434288008C0C98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		910D6B1D20434288008C0C98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		910D6B1F20434288008C0C98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ParseLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sattique.ParseLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		910D6B2020434288008C0C98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ParseLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sattique.ParseLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		910D6B2220434288008C0C98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ParseLabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sattique.ParseLabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParseLab.app/ParseLab";
+			};
+			name = Debug;
+		};
+		910D6B2320434288008C0C98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ParseLabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sattique.ParseLabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParseLab.app/ParseLab";
+			};
+			name = Release;
+		};
+		910D6B2520434288008C0C98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ParseLabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sattique.ParseLabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ParseLab;
+			};
+			name = Debug;
+		};
+		910D6B2620434288008C0C98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ParseLabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sattique.ParseLabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ParseLab;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		910D6AEE20434287008C0C98 /* Build configuration list for PBXProject "ParseLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				910D6B1C20434288008C0C98 /* Debug */,
+				910D6B1D20434288008C0C98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		910D6B1E20434288008C0C98 /* Build configuration list for PBXNativeTarget "ParseLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				910D6B1F20434288008C0C98 /* Debug */,
+				910D6B2020434288008C0C98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		910D6B2120434288008C0C98 /* Build configuration list for PBXNativeTarget "ParseLabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				910D6B2220434288008C0C98 /* Debug */,
+				910D6B2320434288008C0C98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		910D6B2420434288008C0C98 /* Build configuration list for PBXNativeTarget "ParseLabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				910D6B2520434288008C0C98 /* Debug */,
+				910D6B2620434288008C0C98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		910D6AFD20434288008C0C98 /* ParseLab.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				910D6AFE20434288008C0C98 /* ParseLab.xcdatamodel */,
+			);
+			currentVersion = 910D6AFE20434288008C0C98 /* ParseLab.xcdatamodel */;
+			path = ParseLab.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 910D6AEB20434287008C0C98 /* Project object */;
+}
