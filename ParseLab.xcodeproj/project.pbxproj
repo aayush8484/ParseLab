@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		29C0D1F12A7AABB606C4C22E /* libPods-ParseLab.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABEDADDD923C76EF615C6C69 /* libPods-ParseLab.a */; };
+		6B8C9D9A68594B712CE3A35D /* Pods_ParseLabTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67A2BC55DF9070ADE864D713 /* Pods_ParseLabTests.framework */; };
+		816029E2E343BEB1E2A9AB2E /* Pods_ParseLab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D33B06C7C409AFBBE87CF6A /* Pods_ParseLab.framework */; };
 		910D6AF720434288008C0C98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910D6AF620434288008C0C98 /* AppDelegate.swift */; };
 		910D6AFC20434288008C0C98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 910D6AFA20434288008C0C98 /* Main.storyboard */; };
 		910D6AFF20434288008C0C98 /* ParseLab.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 910D6AFD20434288008C0C98 /* ParseLab.xcdatamodeld */; };
@@ -16,8 +17,7 @@
 		910D6B0F20434288008C0C98 /* ParseLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910D6B0E20434288008C0C98 /* ParseLabTests.swift */; };
 		910D6B1A20434288008C0C98 /* ParseLabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910D6B1920434288008C0C98 /* ParseLabUITests.swift */; };
 		910D6B2920434368008C0C98 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910D6B2820434368008C0C98 /* LoginViewController.swift */; };
-		BB01A02944B29304FE5A1EF5 /* libPods-ParseLabUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AA6470A06DC65EDC5B34280 /* libPods-ParseLabUITests.a */; };
-		E59E071EBE969DE3E8F3660D /* libPods-ParseLabTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F54747DD6932BE483902AB /* libPods-ParseLabTests.a */; };
+		CAB1BCDE2FCDF199AEF643F2 /* Pods_ParseLabUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 379EC5604012A47673E72BE0 /* Pods_ParseLabUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,11 +40,11 @@
 /* Begin PBXFileReference section */
 		0F39DA0C7C9BC25407FDEB56 /* Pods-ParseLabTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseLabTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParseLabTests/Pods-ParseLabTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2A522E00BA5B3DBC7BD7EEB1 /* Pods-ParseLab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseLab.release.xcconfig"; path = "Pods/Target Support Files/Pods-ParseLab/Pods-ParseLab.release.xcconfig"; sourceTree = "<group>"; };
-		2AA6470A06DC65EDC5B34280 /* libPods-ParseLabUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ParseLabUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		379EC5604012A47673E72BE0 /* Pods_ParseLabUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParseLabUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		409E365CBBE85E8D6DF12AF1 /* Pods-ParseLab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseLab.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParseLab/Pods-ParseLab.debug.xcconfig"; sourceTree = "<group>"; };
 		40E162126A2AD059211D38B9 /* Pods-ParseLabUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseLabUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ParseLabUITests/Pods-ParseLabUITests.release.xcconfig"; sourceTree = "<group>"; };
+		67A2BC55DF9070ADE864D713 /* Pods_ParseLabTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParseLabTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7589A493AB13A56A26AA10B7 /* Pods-ParseLabUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseLabUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParseLabUITests/Pods-ParseLabUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		75F54747DD6932BE483902AB /* libPods-ParseLabTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ParseLabTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		910D6AF320434288008C0C98 /* ParseLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParseLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		910D6AF620434288008C0C98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		910D6AFB20434288008C0C98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -59,7 +59,7 @@
 		910D6B1920434288008C0C98 /* ParseLabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseLabUITests.swift; sourceTree = "<group>"; };
 		910D6B1B20434288008C0C98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		910D6B2820434368008C0C98 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		ABEDADDD923C76EF615C6C69 /* libPods-ParseLab.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ParseLab.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D33B06C7C409AFBBE87CF6A /* Pods_ParseLab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParseLab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD46697CE18E7072217B4D8C /* Pods-ParseLabTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseLabTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ParseLabTests/Pods-ParseLabTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,7 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29C0D1F12A7AABB606C4C22E /* libPods-ParseLab.a in Frameworks */,
+				816029E2E343BEB1E2A9AB2E /* Pods_ParseLab.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,7 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E59E071EBE969DE3E8F3660D /* libPods-ParseLabTests.a in Frameworks */,
+				6B8C9D9A68594B712CE3A35D /* Pods_ParseLabTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB01A02944B29304FE5A1EF5 /* libPods-ParseLabUITests.a in Frameworks */,
+				CAB1BCDE2FCDF199AEF643F2 /* Pods_ParseLabUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,9 +94,9 @@
 		52AA4BCDDF2B3AD6E30A16FD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				ABEDADDD923C76EF615C6C69 /* libPods-ParseLab.a */,
-				75F54747DD6932BE483902AB /* libPods-ParseLabTests.a */,
-				2AA6470A06DC65EDC5B34280 /* libPods-ParseLabUITests.a */,
+				9D33B06C7C409AFBBE87CF6A /* Pods_ParseLab.framework */,
+				67A2BC55DF9070ADE864D713 /* Pods_ParseLabTests.framework */,
+				379EC5604012A47673E72BE0 /* Pods_ParseLabUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -453,9 +453,14 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ParseLab/Pods-ParseLab-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -532,6 +537,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ANALYZER_OBJC_SELF_INIT = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -547,7 +553,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -561,6 +567,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "/Users/pujanthapa/Desktop/gupta/ParseLab/Pods/**";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -590,6 +597,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ANALYZER_OBJC_SELF_INIT = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -605,7 +613,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -619,6 +627,10 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
+					"/Users/pujanthapa/Desktop/gupta/ParseLab/Pods/**",
+					"$(SRCROOT)/**",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
